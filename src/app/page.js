@@ -397,7 +397,7 @@ export default function Home() {
                   innovation takes flight.
                 </h3>
               </Copy>
-              <AnimatedButton label="Explore Gallery" route="/gallery" />
+              <AnimatedButton label="Explore Gallery" route="/blueprints" />
             </div>
           </div>
         </div>
