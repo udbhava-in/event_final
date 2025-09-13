@@ -1,5 +1,5 @@
 "use client";
-
+import "./profile.css";
 import { SignIn, useUser } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import { useQuery } from "convex/react";
@@ -51,7 +51,7 @@ export default function ProfilePage() {
     return (
       <div className="min-h-screen bg-[#0b0f17] text-white flex items-center justify-center px-4">
         <div className="max-w-md w-full flex items-center justify-center">
-          <SignIn afterSignInUrl="/profile" />
+          <SignIn fallbackRedirectUrl="/profile" />
         </div>
       </div>
     );

@@ -1,0 +1,95 @@
+
+.join-team-page {
+  min-height: 100vh;
+  background-color: #0b0f17;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.join-team-page .container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 6xl;
+}
+
+@media (min-width: 640px) {
+  .join-team-page .container {
+    padding: 2rem;
+  }
+}
+
+.join-team-page .header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .join-team-page .header {
+    margin-bottom: 2rem;
+  }
+}
+
+.join-team-page .join-team-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .join-team-page .join-team-title {
+    font-size: 1.875rem;
+  }
+}
+
+.join-team-page .sub-header {
+  font-size: 0.875rem;
+  color: #a1a1aa;
+}
+
+@media (min-width: 640px) {
+  .join-team-page .sub-header {
+    font-size: 1rem;
+  }
+}
+
+.join-team-page .card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .join-team-page .card {
+    padding: 1.5rem;
+  }
+}
+
+.join-team-page .team-info-card {
+  background-color: rgba(55, 65, 81, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .join-team-page .team-info-card {
+    padding: 1.5rem;
+  }
+}
+
+.join-team-page .action-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .join-team-page .action-section {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

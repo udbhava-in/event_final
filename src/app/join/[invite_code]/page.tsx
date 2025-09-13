@@ -1,4 +1,5 @@
 "use client";
+import "./join.css";
 
 import { SignIn, useUser } from "@clerk/nextjs";
 import { useParams, useRouter } from "next/navigation";

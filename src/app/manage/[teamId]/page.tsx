@@ -1,5 +1,5 @@
 "use client";
-
+import "./manage.css";
 import { SignIn, useUser } from "@clerk/nextjs";
 import { useParams, useRouter } from "next/navigation";
 import { useMutation, useQuery } from "convex/react";
@@ -22,7 +22,6 @@ import {
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 import { useState } from "react";
 
 export default function ManageTeamPage() {
@@ -439,21 +438,22 @@ export default function ManageTeamPage() {
             onClick={copyInviteLink}
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 flex-1 sm:flex-none order-1 sm:order-2"
           >
-            {isCopied ? (
-              <>
-                <CheckCircle className="h-4 w-4 mr-2" />
-                Copied!
-              </>
-            ) : (
-              <>
-                <Copy className="h-4 w-4 mr-2" />
-                Copy Invite Link
-              </>
-            )}
+            {isCopied
+              ? (
+                <>
+                  <CheckCircle className="h-4 w-4 mr-2" />
+                  Copied!
+                </>
+              )
+              : (
+                <>
+                  <Copy className="h-4 w-4 mr-2" />
+                  Copy Invite Link
+                </>
+              )}
           </Button>
         </div>
       </div>
     </div>
   );
 }
-

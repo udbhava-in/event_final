@@ -1,0 +1,110 @@
+
+.profile-page {
+  min-height: 100vh;
+  z-index: 10;
+  padding-top: 4.5rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.profile-page .container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 6xl;
+}
+
+.profile-page .header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .profile-page .header {
+    margin-bottom: 2rem;
+  }
+}
+
+.profile-page .welcome-back {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .profile-page .welcome-back {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-page .welcome-back {
+    font-size: 3rem;
+  }
+}
+
+.profile-page .sub-header {
+  font-size: 0.875rem;
+  color: #a1a1aa;
+}
+
+@media (min-width: 640px) {
+  .profile-page .sub-header {
+    font-size: 1rem;
+  }
+}
+
+.profile-page .section {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .profile-page .section {
+    margin-bottom: 2rem;
+  }
+}
+
+.profile-page .section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .profile-page .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.profile-page .card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .profile-page .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-page .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.profile-page .card {
+  background-color: rgba(55, 65, 81, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+
+.profile-page .card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
