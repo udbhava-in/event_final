@@ -245,8 +245,8 @@ const Nav = () => {
               </div>
               <div className="link">
                 <a
-                  href="/spaces"
-                  onClick={(e) => handleLinkClick(e, "/spaces")}
+                  href="/gallery"
+                  onClick={(e) => handleLinkClick(e, "/gallery")}
                 >
                   <h2>Gallery</h2>
                 </a>

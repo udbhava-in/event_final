@@ -135,7 +135,8 @@ export default function Gallery() {
     };
   }, []);
 
-  const itemCount = 20;
+  // ✅ match your image count
+  const itemCount = 13;
   const itemGap = 150;
   const columns = 4;
   const itemWidth = 120;
@@ -296,8 +297,8 @@ export default function Gallery() {
 
         const itemNum = (Math.abs(row * columns + col) % itemCount) + 1;
         const img = document.createElement("img");
-        img.src = `/archive/archive-${itemNum}.jpg`;
-        img.alt = `Image ${itemNum}`;
+        img.src = `/posters/${itemNum}.png`;
+        img.alt = `Poster ${itemNum}`;
         item.appendChild(img);
 
         item.addEventListener("click", (e) => {
@@ -349,7 +350,8 @@ export default function Gallery() {
     container.style.cursor = "auto";
 
     const imgSrc = item.querySelector("img").src;
-    const imgMatch = imgSrc.match(/\/img(\d+)\.jpg/);
+    // ✅ updated regex for /poster/xx.png
+    const imgMatch = imgSrc.match(/\/(\d+)\.png$/);
     const imgNum = imgMatch ? parseInt(imgMatch[1]) : 1;
     const titleIndex = (imgNum - 1) % items.length;
 

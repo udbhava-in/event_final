@@ -364,13 +364,13 @@ export default function Home() {
             <div className="gallery-callout-row">
               <div className="gallery-callout-img gallery-callout-img-1">
                 <img
-                  src="/gallery-callout/gallery-callout-1.jpg"
+                  src="/posters/13.png"
                   alt="Udbhava moments"
                 />
               </div>
               <div className="gallery-callout-img gallery-callout-img-2">
                 <img
-                  src="/gallery-callout/gallery-callout-2.jpg"
+                  src="/posters/9.png"
                   alt="Tech fest highlights"
                 />
                 <div className="gallery-callout-img-content">
@@ -381,10 +381,10 @@ export default function Home() {
             </div>
             <div className="gallery-callout-row">
               <div className="gallery-callout-img gallery-callout-img-3">
-                <img src="/gallery-callout/gallery-callout-3.jpg" alt="" />
+                <img src="/posters/5.png" alt="" />
               </div>
               <div className="gallery-callout-img gallery-callout-img-4">
-                <img src="/gallery-callout/gallery-callout-4.jpg" alt="" />
+                <img src="/posters/3.png" alt="" />
               </div>
             </div>
           </div>
@@ -397,7 +397,7 @@ export default function Home() {
                   innovation takes flight.
                 </h3>
               </Copy>
-              <AnimatedButton label="Explore Gallery" route="/blueprints" />
+              <AnimatedButton label="Explore Gallery" route="/gallery" />
             </div>
           </div>
         </div>
