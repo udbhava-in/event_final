@@ -1,0 +1,49 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.top-bar .btn {
+  width: 10rem;
+}
+
+.top-bar .top-bar-logo {
+  display: flex;
+  align-items: center;
+  max-width: 8rem; /* default max size */
+}
+
+.top-bar .top-bar-logo img {
+  width: 100%;   /* make the image scale inside its container */
+  height: auto;  /* preserve aspect ratio */
+}
+
+
+@media (max-width: 1000px) {
+  .top-bar {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-bar {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .top-bar .top-bar-logo {
+    max-width: 6rem; 
+  }
+}
+
+@media (max-width: 600px) {
+  .top-bar .top-bar-logo {
+    max-width: 4.5rem; 
+  }
+}
