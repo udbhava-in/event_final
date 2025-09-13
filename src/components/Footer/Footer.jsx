@@ -151,7 +151,7 @@ const Footer = () => {
       <div className="footer-outro">
         <div className="container">
           <div className="footer-header">
-            <img src="/logos/terrene-footer-logo.svg" alt="" />
+            <img src="/logos/udbhava.png" alt="" />
           </div>
           <div className="footer-copyright">
             <p>
