@@ -208,34 +208,44 @@ export default function Home() {
       )}
       <Nav />
       <section className="hero">
-        <div className="hero-bg">
-          <img src="/home/aa.png" alt="Udbhava Tech Fest" />
-        </div>
-        <div className="hero-gradient"></div>
-        <div className="container">
-          <div className="hero-content">
-            <div className="hero-header">
-              <Copy animateOnScroll={false} delay={showPreloader ? 10 : 0.85}>
-                <h1>
-                  Udbhava - Spark The Future
-                </h1>
-              </Copy>
-            </div>
-            <div className="hero-tagline">
-              <Copy animateOnScroll={false} delay={showPreloader ? 10.15 : 1}>
-                <p>
-                 Organized by Nitte Institute of Professional Education (NIPE), Udbhava 2025 is where innovation meets imagination. From the flagship Hackathon – Reality Rewritten to a galaxy of thrilling competitions, Udbhava invites you to explore, create, and celebrate the future.
-                </p>
-              </Copy>
-            </div>
-            <AnimatedButton
-              label="View Events"
-              route="/events"
-              animateOnScroll={false}
-              delay={showPreloader ? 10.3 : 1.15}
-            />
-          </div>
-        </div>
+  <div className="hero-bg">
+  <video
+    src="/bg/back.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="hero-video"
+  />
+</div>
+
+  <div className="hero-gradient"></div>
+  <div className="container">
+    <div className="hero-content">
+      <div className="hero-header">
+        <Copy animateOnScroll={false} delay={showPreloader ? 10 : 0.85}>
+          <h1>Udbhava - Spark The Future</h1>
+        </Copy>
+      </div>
+      <div className="hero-tagline">
+        <Copy animateOnScroll={false} delay={showPreloader ? 10.15 : 1}>
+          <p>
+            Organized by Nitte Institute of Professional Education (NIPE),
+            Udbhava 2025 is where innovation meets imagination. From the flagship
+            Hackathon – Reality Rewritten to a galaxy of thrilling competitions,
+            Udbhava invites you to explore, create, and celebrate the future.
+          </p>
+        </Copy>
+      </div>
+      <AnimatedButton
+        label="View Events"
+        route="/events"
+        animateOnScroll={false}
+        delay={showPreloader ? 10.3 : 1.15}
+      />
+    </div>
+  </div>
+
         <div className="hero-stats">
           <div className="container">
             <div className="stat">
