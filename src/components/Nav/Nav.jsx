@@ -232,7 +232,7 @@ const Nav = () => {
             <div className="links">
               <div className="link">
                 <a href="/" onClick={(e) => handleLinkClick(e, "/")}>
-                  <h2>Index</h2>
+                  <h2>Home</h2>
                 </a>
               </div>
               <div className="link">
@@ -240,7 +240,7 @@ const Nav = () => {
                   href="/studio"
                   onClick={(e) => handleLinkClick(e, "/studio")}
                 >
-                  <h2>Studio</h2>
+                  <h2>About</h2>
                 </a>
               </div>
               <div className="link">
@@ -248,7 +248,7 @@ const Nav = () => {
                   href="/spaces"
                   onClick={(e) => handleLinkClick(e, "/spaces")}
                 >
-                  <h2>Our Spaces</h2>
+                  <h2>Gallery</h2>
                 </a>
               </div>
               <div className="link">
@@ -256,7 +256,7 @@ const Nav = () => {
                   href="/sample-space"
                   onClick={(e) => handleLinkClick(e, "/sample-space")}
                 >
-                  <h2>One Installation</h2>
+                  <h2>Contact-US</h2>
                 </a>
               </div>
               <div className="link">
@@ -264,7 +264,7 @@ const Nav = () => {
                   href="/blueprints"
                   onClick={(e) => handleLinkClick(e, "/blueprints")}
                 >
-                  <h2>Blueprints</h2>
+                  <h2>Rules</h2>
                 </a>
               </div>
               <div className="link">

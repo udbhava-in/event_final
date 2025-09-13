@@ -175,13 +175,11 @@ export default function Home() {
               </h1>
             </div>
             <div className="word" id="word-2">
-              <h1>The Emergence</h1>
+              <h1>Spark The Future</h1>
             </div>
           </div>
           <div className="divider"></div>
-          <div className="spinner-container">
-            <div className="spinner"></div>
-          </div>
+         
         <div className="counter">
 <div className="counter">
   <div className="count">
@@ -219,17 +217,14 @@ export default function Home() {
             <div className="hero-header">
               <Copy animateOnScroll={false} delay={showPreloader ? 10 : 0.85}>
                 <h1>
-                  Udbhava – A cosmic celebration of technology and creativity
+                  Udbhava - Spark The Future
                 </h1>
               </Copy>
             </div>
             <div className="hero-tagline">
               <Copy animateOnScroll={false} delay={showPreloader ? 10.15 : 1}>
                 <p>
-                  Organized by the BCA Department, Udbhava 2025 is where
-                  innovation meets imagination. From our flagship Hackathon –
-                  Reality Rewritten to a galaxy of exciting competitions, join
-                  us to explore, create, and celebrate the future.
+                 Organized by Nitte Institute of Professional Education (NIPE), Udbhava 2025 is where innovation meets imagination. From the flagship Hackathon – Reality Rewritten to a galaxy of thrilling competitions, Udbhava invites you to explore, create, and celebrate the future.
                 </p>
               </Copy>
             </div>
@@ -362,14 +357,7 @@ export default function Home() {
         </div>
         <FeaturedProjects />
       </section>
-      <section className="client-reviews-container">
-        <div className="container">
-          <div className="client-reviews-header-callout">
-            <p>What participants say</p>
-          </div>
-          <ClientReviews />
-        </div>
-      </section>
+      
       <section className="gallery-callout">
         <div className="container">
           <div className="gallery-callout-col">
@@ -414,12 +402,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <CTAWindow
-        img="/home/home-cta-window.jpg"
-        header="Udbhava 2025"
-        callout="Where technology meets creativity"
-        description="Organized by the BCA Department at NIPE, Udbhava is more than a fest – it’s a platform for innovation, learning, and celebration."
-      />
+
       <ConditionalFooter />
     </>
   );
