@@ -237,8 +237,8 @@ const Nav = () => {
               </div>
               <div className="link">
                 <a
-                  href="/studio"
-                  onClick={(e) => handleLinkClick(e, "/studio")}
+                  href="/about"
+                  onClick={(e) => handleLinkClick(e, "/about")}
                 >
                   <h2>About</h2>
                 </a>

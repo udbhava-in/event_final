@@ -1,5 +1,5 @@
 "use client";
-import "./studio.css";
+import "./about.css";
 
 import Nav from "@/components/Nav/Nav";
 import ConditionalFooter from "@/components/ConditionalFooter/ConditionalFooter";
@@ -18,22 +18,22 @@ const page = () => {
             <div className="studio-hero-col">
               <Copy delay={0.85}>
                 <p>
-                  We see design as more than construction. It is an ongoing
-                  dialogue between people, material, and place, shaped with
-                  care, and built to endure.
+                  Udbhava is more than a fest – it’s a celebration of
+                  technology, creativity, and collaboration, bringing together
+                  bright minds from across disciplines.
                 </p>
               </Copy>
             </div>
             <div className="studio-hero-col">
               <Copy delay={0.85}>
                 <h2>
-                  Our studio exists to create spaces that feel honest, lived in,
-                  and quietly transformative. Every project begins with
-                  listening and ends with an environment.
+                  Our event is built to inspire innovation and teamwork. From
+                  hackathons to debates, gaming to design, Udbhava gives
+                  everyone a stage to shine and create lasting memories.
                 </h2>
               </Copy>
               <div className="studio-hero-hero-img">
-                <img src="/studio/about-hero.png" alt="" />
+                <img src="/posters/1.png" alt="About Udbhava" />
               </div>
             </div>
           </div>
@@ -43,32 +43,32 @@ const page = () => {
             <div className="more-facts-items">
               <div className="fact">
                 <Copy delay={0.1}>
-                  <p>Models crafted</p>
-                  <h2>120+</h2>
+                  <p>Exciting Events</p>
+                  <h2>8+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.2}>
-                  <p>Materials explored</p>
-                  <h2>60</h2>
+                  <p>Participants</p>
+                  <h2>500+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.3}>
-                  <p>Workshops hosted</p>
-                  <h2>25+</h2>
+                  <p>Colleges Engaged</p>
+                  <h2>20+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.4}>
-                  <p>Hours logged</p>
-                  <h2>3k+</h2>
+                  <p>Days of Fest</p>
+                  <h2>2</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.5}>
-                  <p>Prototypes build</p>
-                  <h2>724</h2>
+                  <p>Flagship Hackathon</p>
+                  <h2>1</h2>
                 </Copy>
               </div>
             </div>
@@ -80,10 +80,10 @@ const page = () => {
           </div>
         </section>
         <CTAWindow
-          img="/studio/about-cta-window.jpg"
-          header="The Archive"
-          callout="Designs that speak through form"
-          description="Each project tells a story of light, material, and rhythm. Explore how ideas take shape and grow into lasting environments."
+          img="/nipe.jpg"
+          header="Udbhava 2025"
+          callout="Ignite Innovation · Spark the Future"
+          description="Udbhava is powered by passion, collaboration, and creativity. Explore how participants turn ideas into reality and celebrate the spirit of technology."
         />
         <Spotlight />
       </div>

@@ -182,27 +182,15 @@ export default function Home() {
          
         <div className="counter">
 <div className="counter">
-  <div className="count">
-    <div className="digit"><h1>0</h1></div>
-    <div className="digit"><h1>0</h1></div>
-  </div>
-  <div className="count">
-    <div className="digit"><h1>2</h1></div>
-    <div className="digit"><h1>7</h1></div>
-  </div>
-  <div className="count">
-    <div className="digit"><h1>6</h1></div>
-    <div className="digit"><h1>5</h1></div>
-  </div>
-  <div className="count">
-    <div className="digit"><h1>9</h1></div>
-    <div className="digit"><h1>8</h1></div>
-  </div>
-  <div className="count">
-    <div className="digit"><h1>9</h1></div>
-    <div className="digit"><h1>9</h1></div>
-  </div>
+  <div className="count"><div className="digit"><h1>U</h1></div></div>
+  <div className="count"><div className="digit"><h1>D</h1></div></div>
+  <div className="count"><div className="digit"><h1>B</h1></div></div>
+  <div className="count"><div className="digit"><h1>H</h1></div></div>
+  <div className="count"><div className="digit"><h1>A</h1></div></div>
+  <div className="count"><div className="digit"><h1>V</h1></div></div>
+  <div className="count"><div className="digit"><h1>A</h1></div></div>
 </div>
+
           </div>
         </div>
       )}

@@ -112,13 +112,14 @@ const HowWeWork = () => {
           <div className="how-we-work-header-content">
             <div className="how-we-work-header-callout">
               <Copy delay={0.1}>
-                <p>Process in focus</p>
+                <p>About NIPE</p>
               </Copy>
             </div>
             <Copy delay={0.15}>
               <h3>
-                From first sketches to final details, our process is shaped to
-                bring clarity and rhythm
+                Nitte Institute of Professional Education fosters an environment
+                where academic excellence meets holistic development — blending
+                knowledge, values, and innovation.
               </h3>
             </Copy>
             <div className="how-we-work-steps" ref={stepsRef}>
@@ -127,7 +128,7 @@ const HowWeWork = () => {
                   activeStep === 0 ? "active" : ""
                 }`}
               >
-                <p className="how-we-work-step-label">Step</p>
+                <p className="how-we-work-step-label">Pillar</p>
                 <p className="how-we-work-step-index">1</p>
               </div>
               <div
@@ -135,7 +136,7 @@ const HowWeWork = () => {
                   activeStep === 1 ? "active" : ""
                 }`}
               >
-                <p className="how-we-work-step-label">Step</p>
+                <p className="how-we-work-step-label">Pillar</p>
                 <p className="how-we-work-step-index">2</p>
               </div>
               <div
@@ -143,7 +144,7 @@ const HowWeWork = () => {
                   activeStep === 2 ? "active" : ""
                 }`}
               >
-                <p className="how-we-work-step-label">Step</p>
+                <p className="how-we-work-step-label">Pillar</p>
                 <p className="how-we-work-step-index">3</p>
               </div>
               <div
@@ -151,7 +152,7 @@ const HowWeWork = () => {
                   activeStep === 3 ? "active" : ""
                 }`}
               >
-                <p className="how-we-work-step-label">Step</p>
+                <p className="how-we-work-step-label">Pillar</p>
                 <p className="how-we-work-step-index">4</p>
               </div>
             </div>
@@ -161,61 +162,62 @@ const HowWeWork = () => {
       <div className="how-we-work-col how-we-work-cards" ref={cardsRef}>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-1.jpg" alt="" />
+            <img src="/nipe.jpg" alt="Academics" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Discovery / Context</h3>
+              <h3>Academic Excellence</h3>
             </div>
             <p className="md">
-              We begin with listening and study. Site, climate, and daily
-              routines inform the brief so we can define aims, constraints, and
-              measures of success with clarity.
+              NIPE emphasizes a strong foundation in academics with
+              well-structured programs, experienced faculty, and
+              industry-relevant curricula to prepare students for future
+              careers.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-2.jpg" alt="" />
+            <img src="/done.png" alt="Innovation" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Principles / Direction</h3>
+              <h3>Innovation & Research</h3>
             </div>
             <p className="md">
-              We set guiding principles for light, massing, and flow. Quick
-              models and diagrams test options and reveal the direction that
-              best serves the brief.
+              The institute encourages critical thinking and problem-solving
+              through research, innovation labs, and projects that bridge
+              classroom knowledge with real-world application.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-3.jpg" alt="" />
+            <img src="/how-we-work/process-3.jpg" alt="Student Life" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Detail / Coordination</h3>
+              <h3>Holistic Development</h3>
             </div>
             <p className="md">
-              We develop drawings and specifications across structure, services,
-              and joinery. Materials and samples are reviewed in natural light
-              while budget and timeline stay in view.
+              Alongside academics, NIPE focuses on extracurricular activities,
+              leadership, cultural events, and fests to build confidence and
+              teamwork among students.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-4.jpg" alt="" />
+            <img src="/how-we-work/process-4.jpg" alt="Values" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Build / Handover</h3>
+              <h3>Values & Community</h3>
             </div>
             <p className="md">
-              We oversee construction with care and precision. After final
-              review and finishing, we hand over a space that is ready to live
-              in, complete with guidance for long term care.
+              Rooted in the vision of the Nitte Education Trust, NIPE nurtures
+              values of integrity, service, and social responsibility — building
+              professionals who contribute to society.
             </p>
           </div>
         </div>
